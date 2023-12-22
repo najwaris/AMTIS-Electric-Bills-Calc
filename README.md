@@ -10,3 +10,6 @@ Enter these in the input box:
 
 Refer to this link for rate if needed: https://www.tnb.com.my/residential/pricing-tariffs
 
+### Branch
+Go to Bills-Calc branch for the code.
+
