@@ -1,0 +1,114 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    margin: 40px;
+    background-color: #f0f0f0; /* Lighter background */
+    color: #333; /* Darker text color for better contrast */
+  }
+  
+  h1, h2 {
+    text-align: center;
+    margin-bottom: 20px; /* More spacing between headers and content */
+  }
+
+  h3 {
+    text-align: center;
+    margin-bottom: 20px; /* More spacing between headers and content */
+  }
+  
+  h4 {
+    text-align: left;
+    margin-bottom: 5px; /* Slight margin below h4 elements */
+  }
+
+  p {
+    text-align: left;
+    margin-bottom: 5px; /* Slight margin below p elements */
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  form {
+    max-width: 400px; /* Limit form width for better readability */
+    margin: 0 auto; /* Center the form */
+    padding: 20px; /* Add padding to the form */
+    background-color: #fff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  input {
+    width: calc(100% - 22px); /* Full width input */
+    margin-bottom: 10px; /* Space between inputs */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  button {
+    display: block; /* Full width button */
+    width: 100%;
+    margin-top: 10px; /* Space above the button */
+    background-color: #7b5343;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px; /* Space above the table */
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    color: #333;
+  }
+  
+  th {
+    background-color: #7b5343;
+    color: white;
+  }
+  
+  tbody {
+    background-color: #f9f9f9; /* Alternate background for better readability */
+  }
+
+/* Style for the results section */
+.results {
+    max-width: 600px; /* Limit the width */
+    margin: 20px auto; /* Center the box */
+    padding: 20px; /* Padding for the box */
+    background-color: #fff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  /* Apply styles to the table inside the results box */
+  .results table {
+    margin-top: 10px; /* Space above the table */
+  }
+  
+  /* Apply styles to table headers and cells inside the results box */
+  .results th, .results td {
+    padding: 8px; /* Adjust padding */
+    text-align: center;
+    border: 1px solid #ddd;
+    color: #333;
+  }
+  
+  .results th {
+    background-color: #7b5343;
+    color: white;
+  }
+  
+  .results tbody {
+    background-color: #f9f9f9; /* Alternate background for better readability */
+  }
+  
