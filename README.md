@@ -2,6 +2,7 @@
 
 Name: Nurul Najwa binti Mat Aris 
 
+### Input
 Enter these in the input box:
 1. Voltage, Voltage (V) 
 2. Current, Ampere (A)
