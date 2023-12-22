@@ -2,7 +2,7 @@
 
 Name: Nurul Najwa binti Mat Aris
 
-##Input 
+### Input
 
 Enter these in the input box:
 1. Voltage, Voltage (V) 
