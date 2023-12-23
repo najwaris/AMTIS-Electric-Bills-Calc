@@ -15,7 +15,7 @@ function calculate_electricity_rates(float $voltage, float $current, float $rate
   // Convert rate from sen to RM
   $rate = $rate / 100;
 
-  // Calculate power in watts
+  // Calculate power in watts and divide by 1000 to convert Wh to kWh
   $power = $voltage * $current / 1000;
 
   $i = 1;
@@ -24,7 +24,7 @@ function calculate_electricity_rates(float $voltage, float $current, float $rate
 
   while ($i <= 24) {
     // Calculate energy in kWh
-    $energy = ($power * $i); // Divide by 1000 to convert Wh to kWh
+    $energy = ($power * $i); 
 
     // Calculate total charge per hour
     $totalCharge += $energy * $rate;
@@ -95,7 +95,7 @@ $rates = calculate_electricity_rates($voltage, $current, $rate, $hours);
     $i = 1;
     while ($i <= 24) {
       // Calculate energy for each hour
-      $energy = ($rates['power'] * $i); // Convert Wh to kWh for each hour
+      $energy = ($rates['power'] * $i); 
       // Calculate total charge per hour
       $totalCharge = $energy * $rates['rate'];
 
