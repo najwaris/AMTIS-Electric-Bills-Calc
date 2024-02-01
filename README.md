@@ -1,6 +1,5 @@
 # AMTIS Electric Bills Calculator
-
-Name: Nurul Najwa binti Mat Aris 
+A calculator developed for AMTIS first phase of internship stage. 
 
 ### Input
 Enter these in the input box:
